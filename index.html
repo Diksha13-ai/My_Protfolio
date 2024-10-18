@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksha's Portfolio</title>
+    <!-- Add CSS and Animation Libraries -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"> </script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      />
+    <script src="https://unpkg.com/scrollreveal"></script>
+   
+    
+</script>
+</head>
+<body>
+
+    <!-- Loading Animation -->
+    <div id="loader">
+        
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#educations">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+           
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="intro-container">
+            <div class="intro-image">
+                <img src="profilepic.jpeg" alt="Diksha's Picture">
+            </div>
+            <div class="intro-text">
+                <h1 class="fade-in">Hi, I'm Diksha</h1>
+                <p class="typewriter">Cloud Architect & Software Developer</p>
+                <button class="btn" id="getToKnowMeBtn">Get to Know Me</button>
+                <button class="btn" id="downloadCVBtn">Download CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong> Diksha </strong>, a dedicated and ambitious student currently pursuing my Bachelor's degree in Computer Science Engineering. 
+            <br>
+            With a strong foundation in computer science principles and passed out a diploma from Government Polytechnic Amravati.
+            My academic journey has fueled my passion for software development, data structures, algorithms, and cutting-edge technologies.
+            <br> My goal is to leverage my expertise to contribute to innovative and impactful projects.
+            
+            I believe in the power of teamwork and continuous improvement, and I am committed to making a positive impact through my work. I enjoy "participating in hackathons, coding competitions, and exploring new programming languages".
+            <br>
+            Let's connect! I am eager to network with professionals, exchange ideas, and explore new opportunities in the field of computer science</p>
+    </section>
+
+    <section id="educations" class="section">
+        <h2>Education</h2>
+        <div class="educations-container">
+            <div class="education">
+                <h4>Bachelor of Technology</h4>
+                <p>Bachelor of Technology, Computer Science and Engineering,<br> Prof. Ram Meghe Institute of Technology and Research, 2023-2026. <br>
+                    <strong>  Current CGPA : 8.55 </strong> </p>
+            </div>
+            <div class="education">
+                <h4>Diploma</h4>
+                <p>Diploma in Information Technology,<br> Government Polytechnic Amravati <br> 2023 <br>
+                    <strong>   Aggregate : 91% </strong>
+                    </p>
+            </div>
+            <div class="education">
+                <h4>SCC</h4>
+                <p>Class 10th, <br> Rajeshwar Union High School Badnera <br> 2020. <br>
+                    <strong>  Presentage : 92.80 % </strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>GST Invoice System
+                </h3>
+                <p>Developed a web application that manages GST invoices, gaining hands-on experience with Java, HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project-card">
+                <h3>Lab Automation System</h3>
+                <p>Implemented real-time monitoring and automated reporting using IoT and Raspberry Pi.</p>
+            </div>
+            <div class="project-card">
+                <h3>Next.js Recipe Website with Chatbot</h3>
+                <p>A recipe management system that allows users to create accounts, manage recipes, and search for recipes based on ingredients.</p>
+            </div>
+            <!-- Add more project cards -->
+        </div>
+    </section>
+
+     <!-- Skill section -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h4>Cloud Computing</h4>
+                <p>Experienced in AWS services, cloud architecture, and infrastructure management.</p>
+            </div>
+            <div class="skill">
+                <h4>Software Development</h4>
+                <p>Proficient in Python, Java, and web technologies including HTML, CSS, and JavaScript, BackEnd technologies like Node.js </p>
+            </div>
+            <div class="skill">
+                <h4>Problem Solving</h4>
+                <p>Participated in multiple hackathons, solving real-world problems with innovative solutions ,also co-ordinate the fest Events in my acdemic year.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="interns" class="section">
+        <h2>Experience</h2>
+        <div class="intern-grid">
+            <div class="intern-card">
+                <h3>Eduskills aws 
+                </h3>
+                <p>Gained practical experience through AWS Cloud Virtual Internship with Eduskill And complete the AWS Academy Cloud Architecting And Cloud Foundation <br> 2024.</p>
+            </div>
+            <div class="intern-card">
+                <h3>Microspectra</h3>
+                <p> Web Development Internship at Microspectra , focusing on cloud solutions and full-stack web development And worked on Real time Applications </p>
+            </div>
+            <div class="intern-card">
+                <h3>Octanet</h3>
+                <p>Completed a web development internship at Octanet, where I honed my skills in creating dynamic and responsive web applications</p>
+            </div>
+            <!-- Add more project cards -->
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>    Winner of Innovo 24 Hackathon At SSGMCOE , Shegaon , April 2024</li>
+            <li> Winner of Poster Presentation competition , Government Polytechnic Amravati , September 2022</li>
+            <li>AWS Academy Cloud Architecting</li>
+            <li>AWS Academy Cloud Foundations</li>
+            <li>Springboard Infosys Software Testing</li>
+            <li>Google Cloud Certification, GDSC | Aug 2024 </li>
+            <li>4 Star Badge @ HackerRank | 2024-Present </li>  
+           
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <textarea placeholder="Your Message" id="message"></textarea>
+        <input type="submit" id="button" value="Send Email">
+    </form>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        // Initialize EmailJS with your user ID
+        emailjs.init('Q34I-jt-ScfCKCerc');
+  
+        // Form submission event handler
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+          event.preventDefault();  // Prevent form from submitting in the default way
+          
+          // Collect form values
+          const from_name = document.getElementById('name').value;
+          const email_id = document.getElementById('email').value;
+          const message = document.getElementById('message').value;
+          
+          // Send email using EmailJS
+          emailjs.send('service_6u5hdcr', 'template_w3kjevv', {
+            from_name: from_name,
+            email_id: email_id,
+            message: message
+          })
+          .then(function(response) {
+            alert('Email sent successfully!');
+          }, function(error) {
+            alert('Failed to send email: ' + JSON.stringify(error));
+          });
+        });
+      </script>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/diksha-nichat-5b788031b" target="_blank"> <i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/Diksha13-ai" target="_blank"> <i class="fa-brands fa-github"></i> GitHub</a>
+    </div>
+    <div class="info-card">
+        <h3> <i class="fa-sharp fa-solid fa-location-dot"></i> Location</h3>
+        <p>Amravati, Maharashtra</p>
+    </div>
+    <div class="info-card">
+        <h3> <i class="fa-solid fa-address-book"></i> Contact</h3>
+        <p>+91 8600760105</p>
+    </div>
+    <div class="info-card">
+        <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+        <p><a href="mailto:dikshanichat13@gmail.com">dikshanichat13@gmail.com</a></p>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Diksha. All rights reserved.</p>
+    </footer>
+
+
+
+<!-- Include the EmailJS SDK -->
+
+
+<script >
+       document.getElementById('getToKnowMeBtn').addEventListener('click', function() {
+        // Redirect to the "About Me" section on the same page
+        window.location.href = '#about'; // Replace '#about' with the actual section ID you want to scroll to
+    });
+    
+    // Function to handle CV download
+    document.getElementById('downloadCVBtn').addEventListener('click', function() {
+        // Replace 'Diksha_CV.pdf' with the actual path to your CV
+        window.location.href = 'Diksha_resume.pdf'; 
+    });
+
+
+
+// Smooth scrolling for navigation
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Scroll animations
+ScrollReveal().reveal('.section', {
+    duration: 1000,
+    origin: 'bottom',
+    distance: '50px'
+});
+
+// Loading screen animation
+window.addEventListener('load', () => {
+    document.getElementById('loader').style.display = 'none';
+});
+// Add a scroll event listener
+window.addEventListener('scroll', () => {
+    const sections = document.querySelectorAll('.section');
+
+    sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (sectionTop < windowHeight - 100) {
+            section.classList.add('visible');
+        }
+    });
+});
+
+
+</script>
+  
+</body>
+</html>
